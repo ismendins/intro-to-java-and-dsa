@@ -28,7 +28,8 @@ public class C2Q22 {
         remainingAmount = remainingAmount % 5;
         // Find the number of pennies in the remaining amount
         int numberOfPennies = remainingAmount;
-// Display results
+
+
         System.out.println("Your amount " + amount + " consists of");
         System.out.println(" " + numberOfOneDollars + " dollars");
         System.out.println(" " + numberOfQuarters + " quarters ");

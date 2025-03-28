@@ -31,8 +31,7 @@ public class C3Q01 {
         if (discriminantOfTheEquation > 0){
             System.out.println("The roots of the equation are: "+ positiveFormulaOfTheRoots + " and " + negativeFormulaOfTheRoots);
         } else if (discriminantOfTheEquation == 0) {
-            double uniqueRoot = positiveFormulaOfTheRoots;
-            System.out.println("The unique root is " + uniqueRoot);
+            System.out.println("The unique root is " + positiveFormulaOfTheRoots);
         } else {
             System.out.println("The equation has no roots");
         }
